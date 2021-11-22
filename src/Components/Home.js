@@ -25,7 +25,7 @@ const Home = () => {
     useEffect(() => {
         newquote();
     }, [])
-    const newquote = () => {
+    const newquote = () => { 
         axios.get('https://api.kanye.rest/').then(response => editquote(response.data.quote))
     }
     const editquote = (quote) => {
