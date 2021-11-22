@@ -77,7 +77,7 @@ const Home = () => {
         }
     }
     return (
-        <div className={container}>
+        <div className={container}> 
             <div className='withbutton'>
                 <p className={kanye}>Kanye West  Quotes</p>
                 <div className='quoteflex'>
