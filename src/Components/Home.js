@@ -78,8 +78,7 @@ const Home = () => {
     }
     return (
         <div className={container}>
-            <p>saldfjlaksjdflkasjdfkl</p>
-            {/* <div className='withbutton'>
+            <div className='withbutton'>
                 <p className={kanye}>Kanye West  Quotes</p>
                 <div className='quoteflex'>
                     <p className={quotecol}>{quote}</p>
@@ -88,7 +87,7 @@ const Home = () => {
             <img className = 'kanyepic one' src={kanye1} alt='kanye1'/>
             <img className = 'kanyepic two' src={kanye2} alt='kanye2'/>
             <img className = 'kanyepic three' src={kanye3} alt='kanye3'/>
-            <img className = 'kanyepic four' src={kanye4} alt='kanye4'/> */}
+            <img className = 'kanyepic four' src={kanye4} alt='kanye4'/>
             <button onClick={newquote} className={create}>new quote</button>
             <button onClick={lightdark} className={ld}></button>
             <p className ={recquoteld}>Recent quote: {recquote}</p>
